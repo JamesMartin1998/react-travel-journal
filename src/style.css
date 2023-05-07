@@ -1,3 +1,29 @@
 * {
-    color: red;
+    box-sizing: border-box;
 }
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Navbar */
+
+.Navbar--container {
+    background-color: #F55A5A;
+    color: #FFFFFF;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+}
+
+.Navbar--container h3 {
+    display: inline-block;
+}
+
+.Navbar--container i {
+    margin-right: 5px;
+}
+
